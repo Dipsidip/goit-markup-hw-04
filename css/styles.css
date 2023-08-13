@@ -134,6 +134,9 @@ body {
 .hero-section {
     background-color: #2E2F42;  
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
+   background-size: cover;
 }
 
 
@@ -268,14 +271,13 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
+    
 }
 .team-photo {
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-member {
     font-weight: 500;
@@ -305,6 +307,55 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+.card-icons {
+    display: flex;
+
+}
+.card-list {
+    display: flex;
+
+}
+.card-items {
+    padding: 8px 24px 32px 16px;
+    border: 1px solid red;
+    border-radius: 50%;
+
+    /* fill: #F4F4FD; */  
+}
+.team-card-link {
+    display: flex;
+}
+
+.customers {
+    background-color: #FFF;
+    border: #2E2F42;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 120px;
+    
+}
+.customers-icons {
+     fill: #8E8F99;
+}
+.customers-item {
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    
+}
+.customers-title {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
 
@@ -384,7 +435,14 @@ max-width: 360px;
 .portfolio-picture {
 
 }
-
+.footer-podtitle {
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
 
 .footer {
     background-color: #2E2F42;
