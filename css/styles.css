@@ -535,12 +535,11 @@ body {
   margin-bottom: 8px;
 }
 
-.portfolio-picture:hover .portfolio-top-text {
+.portfolio-picture:hover .portfolio-top-text, 
+.portfolio-picture:focus .portfolio-top-text {
 transform: translateY(0);
 }
-.portfolio-picture:focus .portfolio-top-text {
-  transform: translateY(0);
-}
+
 
 .portfolio-top-text {
   position: absolute;
