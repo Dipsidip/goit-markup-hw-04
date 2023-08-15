@@ -18,6 +18,7 @@ img {
   --main-text-style: Roboto, sans-serif;
   --main-color: #434455;
   --main-background-color: #ffffff;
+  --white-color: #ffffff;
 }
 
 body {
@@ -96,6 +97,9 @@ body {
 
 .header-nav-menu.current::after {
   background-color: #404bbf;
+}
+.header-nav-menu.current {
+  color: #404bbf;
 }
 .header-nav-menu {
   font-weight: 500;
@@ -381,6 +385,7 @@ body {
   padding-bottom: 120px;
 }
 .customers-icons-link {
+  display: block;
   /* color: #8e8f99; */
   border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -391,6 +396,9 @@ body {
 .costomers-icons:focus {
   fill: #404bbf;
   border-color: #404bbf;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* .card-items:hover,
@@ -503,13 +511,7 @@ body {
   border-radius: 4px;
 }
 
-.button-filters:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-  border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+.button-filters:hover,
 .button-filters:focus {
   color: #ffffff;
   background-color: #404bbf;
@@ -517,6 +519,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 
 .portfoio-section {
   padding: 96px 0 120px 0;
@@ -615,7 +618,7 @@ height: 100%;
 .text-footer {
   font-family: Roboto, sans-serif;
   line-height: 1.5;
-  color: #FFFFFF;
+  color: var(--white-color);
   margin-bottom: 16px;
   letter-spacing: 0.02em;
   width: 264px;
