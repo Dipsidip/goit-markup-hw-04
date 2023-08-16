@@ -2,13 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::after,
-::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: inherit;
-}
+
 
 img {
   display: block;
@@ -40,6 +34,7 @@ body {
   color: #404bbf;
 }
 
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -53,6 +48,7 @@ body {
   margin-left: auto;
 }
 .header-container {
+  
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -61,6 +57,7 @@ body {
 .nav-adress {
   display: flex;
   align-items: center;
+
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -83,7 +80,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .logo-header {
   letter-spacing: 0.03em;
@@ -198,7 +194,6 @@ body {
 
 .goals {
   padding: 120px 0px;
-  display: flex;
   align-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
@@ -248,7 +243,6 @@ body {
 
 .goals-item {
   display: block;
-  max-width: 264px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -265,7 +259,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-right: 24px;
 }
 
 .advantages {
@@ -322,6 +315,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 .card-content-team {
   display: flex;
@@ -395,7 +389,6 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 120px;
 }
 .customers {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -411,7 +404,6 @@ body {
 .customers-icons-link {
   color: #8e8f99;
   display: flex;
-  padding: 16px 32px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   width: 100%;
@@ -436,11 +428,10 @@ body {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
+  
   line-height: 1.11;
   letter-spacing: 0.72px;
-  text-transform: capitalize;
+
   margin-bottom: 72px;
 }
 
@@ -542,7 +533,6 @@ body {
   top: 0;
   height: 100%;
   color: #F4F4FD;
-  font-weight: 400;
   font-size: 16px;
   background-color: #4D5AE5;
   line-height: 24px;
@@ -551,7 +541,6 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
   overflow: auto;
   letter-spacing: 0.02em;
-
 }
 .portfolio-top-wrap {
   position: relative;
@@ -559,9 +548,7 @@ body {
 }
 
 .footer-podtitle {
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -603,7 +590,6 @@ body {
   font-family: Roboto, sans-serif;
   line-height: 1.5;
   color: #ffffff;
-  margin-bottom: 16px;
   letter-spacing: 0.02em;
   width: 264px;
 }
@@ -678,3 +664,9 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+}
