@@ -568,7 +568,7 @@ ol {
 }
 .footer-container {
   display: flex;
-  gap: 120px;
+  /* gap: 120px; */
   align-items: baseline;
 }
 
@@ -605,7 +605,7 @@ ol {
   width: 264px;
 }
 .footer-logo-wrap {
-  
+  margin-right: 120px;
 }
 
 .portfolio-subtitle {
